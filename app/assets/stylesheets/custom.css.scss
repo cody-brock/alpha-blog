@@ -19,6 +19,61 @@
   text-decoration: none;
 }
 
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('alpha-blog-home-background-img.jpg');
+  background-size: cover;
+  height: 550px
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron .btn-custom {
+  font-size: 1.7em;
+  background-color:  #427ef8;
+  font: black;
+}
+
+.jumbotron .btn-custom:hover {
+  background-color:  rgba(0, 255, 213, 0.692);
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul lis {
+  float: left;
+  margin-left: 15px;
+}
+
+
+
 
 @import 'bootstrap/dist/css/bootstrap';
 // @import "bootstrap-sprockets";
